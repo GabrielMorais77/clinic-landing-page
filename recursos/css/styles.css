@@ -1,0 +1,76 @@
+/* Importa a fonte Roboto Condensed do Google Fonts (caso queira garantir em CSS puro) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* Aplica a fonte principal no body */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Corrige imagens que estouram o layout */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Link customizado  */
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #155e8b; /* tom mais escuro do azul principal */
+}
+
+/* Botão personalizado extra, caso queira usar além do Tailwind */
+.btn {
+  background: linear-gradient(to bottom, #3ea1e8, #1e88c7);
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, filter 0.3s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+/* Classe utilitária para ajustar texto de título */
+.title-main {
+  font-size: 2.25rem;
+  color: #1e88c7;
+  line-height: 1.2;
+}
+
+/* Exemplo de animação sutil */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Adiciona rolagem suave para links de ancoragem */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Rodapé  */
+
+/*footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1e88c7;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}*/

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clinica Medica</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="recursos/css/styles.css" />
+  </head>
+
+  <body class="bg-[#1e88c7] text-[#1e88c7]">
+    <header class="max-w-7xl mx-auto px-4 pt-6 pb-2">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h1 class="text-3xl font-normal leading-tight text-white">Clinica Medica Kenkō</h1>
+          <p class="text-xs font-semibold text-white uppercase tracking-widest mt-0.5">
+            Sempre cuidando da sua saúde
+          </p>
+        </div>
+        <nav class="mt-4 sm:mt-0">
+          <ul class="flex space-x-6 text-white text-sm font-semibold">
+            <li>
+              <a href="#" class="bg-white text-[#1e88c7] px-3 py-1 rounded font-semibold block">
+                HOME
+              </a>
+            </li>
+            <li><a href="#" class="hover:underline">SOBRE NOS</a></li>
+            <li><a href="#nossa-equipe" class="hover:underline">NOSSA EQUIPE</a></li>
+            <li><a href="#" class="hover:underline">CONTATO</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="max-w-7xl mx-auto px-4 mt-4 bg-white rounded shadow-md">
+      <div class="flex flex-col md:flex-row items-center md:items-stretch">
+        <div class="md:w-1/2 p-8">
+          <h2 class="text-3xl font-normal leading-tight mb-3 text-[#1e88c7]">
+            Cuidar da sua saúde é mais do que um compromisso, é a nossa missão<br />
+          </h2>
+          <p class="text-sm text-gray-600 mb-6 leading-relaxed">
+            Na nossa clínica, acreditamos que cada paciente é único e merece atenção integral. 
+            Oferecemos um ambiente acolhedor, equipe especializada e tecnologia de ponta para garantir o cuidado que você merece — desde a prevenção até o tratamento. 
+            Aqui, você encontra mais do que um serviço médico: encontra empatia, confiança e 
+            dedicação a cada passo da sua jornada pela saúde.
+          </p>
+          <button
+            class="bg-gradient-to-b from-[#3ea1e8] to-[#1e88c7] text-white font-semibold px-5 py-2 rounded shadow-md hover:brightness-110 transition"
+          >
+            Clique Aqui para Saber mais
+          </button>
+        </div>
+        <div class="md:w-1/2">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/75ed1804-4e43-487b-82e1-d279489ca83b.jpg"
+            alt="Four medical staff members smiling in a bright clinic environment"
+            class="w-full h-full object-cover rounded-r"
+            width="600"
+            height="250"
+          />
+        </div>
+      </div>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-4 mt-6 bg-white rounded shadow-md">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 py-6 border-b border-gray-300">
+        <!-- Welcome -->
+        <section>
+          <h3 class="text-xl font-normal mb-3 text-[#1e88c7]">Seja Bem vindo</h3>
+          <img
+            src="https://storage.googleapis.com/a1aa/image/55779858-87a0-45d1-472d-add6374846c1.jpg"
+            alt="Group of three medical staff members"
+            class="mb-3 rounded"
+            width="300"
+            height="150"
+          />
+          <p class="text-xs text-gray-600 leading-relaxed mb-2">
+            A nossa clínica médica foi criada com um único propósito: cuidar de você com excelência, respeito e humanização.
+          </p>
+          <a href="#" class="text-xs font-bold text-[#1e88c7] hover:underline">READ MORE »</a>
+        </section>
+
+        <!-- Quality Services -->
+        <section>
+          <h3 class="text-xl font-normal mb-3 text-[#1e88c7]">Qualidade que você sente no cuidado</h3>
+          <img
+            src="https://storage.googleapis.com/a1aa/image/756a3bb4-493c-4848-1d76-b7268c2a904c.jpg"
+            alt="Medical team performing surgery"
+            class="mb-3 rounded"
+            width="300"
+            height="150"
+          />
+          <p class="text-xs text-gray-600 leading-relaxed mb-2">
+            Na nossa clínica, qualidade não é apenas um padrão — é um valor presente em cada atendimento.
+Desde o primeiro contato até o acompanhamento médico, buscamos oferecer uma experiência segura, acolhedora e eficiente.
+Contamos com profissionais experientes, equipamentos modernos e processos que colocam você no centro de tudo.
+          </p>
+          <a href="#" class="text-xs font-bold text-[#1e88c7] hover:underline">READ MORE »</a>
+        </section>
+
+        <!-- Latest News -->
+        <section>
+          <h3 class="text-xl font-normal mb-3 text-[#1e88c7]">Ultimas Noticias</h3>
+          <article class="mb-4 border-b border-dotted border-gray-300 pb-3">
+            <p class="text-xs font-bold text-gray-800 mb-1">, Sabado, Abril 19, 2025</p>
+            <p class="text-xs text-gray-600 leading-relaxed">
+                🐣Páscoa Solidária: Clínica oferece Consultas Gratuitas para Famílias em Situação de Vulnerabilidade
+            </p>
+          </article>
+          <article class="mb-4 border-b border-dotted border-gray-300 pb-3">
+            <p class="text-xs font-bold text-gray-800 mb-1">Sexta Feira, Abril 11, 2025</p>
+            <p class="text-xs text-gray-600 leading-relaxed">
+                💉 Campanha de Vacinação contra a Gripe começa este mês
+            </p>
+          </article>
+          <article class="mb-4 border-b border-dotted border-gray-300 pb-3">
+            <p class="text-xs font-bold text-gray-800 mb-1">Quarta - Feira, Dezembro 11, 2024</p>
+            <p class="text-xs text-gray-600 leading-relaxed">
+                🩺 Clínica inaugura novo Maquina de Diagnóstico por Imagem
+            </p>
+          </article>
+          <a href="#" class="text-xs font-bold text-[#1e88c7] hover:underline">READ MORE »</a>
+        </section>
+      </div>
+
+  <!-- Seção: Sobre a Nossa Equipe -->
+  <section id="nossa-equipe" class="max-w-7xl mx-auto px-4 mt-8 bg-white rounded shadow-md py-8">
+    <h2 class="text-2xl font-normal mb-6 text-[#1e88c7]">
+      Sobre a Nossa Equipe
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="text-center">
+        <img alt="Portrait of a cardiologist doctor in white coat with stethoscope" class="mx-auto rounded shadow-md" height="180" src="recursos/images/Imagem_Exemplo_Dra_Cardio.jpg" width="180"/>
+        <h3 class="mt-3 text-lg font-semibold text-[#1e88c7]">Dr. Ana Silva</h3>
+        <p class="text-xs text-gray-600">Cardiologista</p>
+      </div>
+      <div class="text-center">
+        <img alt="Portrait of a pediatrician doctor in white coat with stethoscope" class="mx-auto rounded shadow-md" height="180" src="recursos/images/Imagem_Exemplo_Dr_Pediatra.jpg" width="180"/>
+        <h3 class="mt-3 text-lg font-semibold text-[#1e88c7]">Dr. Carlos Souza</h3>
+        <p class="text-xs text-gray-600">Pediatra</p>
+      </div>
+      <div class="text-center">
+        <img alt="Portrait of a neurologist doctor in white coat with stethoscope" class="mx-auto rounded shadow-md" height="180" src="recursos/images/Imagem_Exemplo_Dra.jpg" width="180"/>
+        <h3 class="mt-3 text-lg font-semibold text-[#1e88c7]">Dra. Mariana Costa</h3>
+        <p class="text-xs text-gray-600">Neurologista</p>
+      </div>
+      <div class="text-center">
+        <img alt="Portrait of an orthopedic doctor in white coat with stethoscope" class="mx-auto rounded shadow-md" height="180" src="recursos/images/Imagem_Exemplo_Dr_orto.jpg" width="180"/>
+        <h3 class="mt-3 text-lg font-semibold text-[#1e88c7]">Dr. João Pereira</h3>
+        <p class="text-xs text-gray-600">Ortopedista</p>
+      </div>
+    </div>
+  </section>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-6 text-xs text-gray-700">
+        <!-- Testimonials -->
+        <section class="border-r border-gray-300 pr-4 md:pr-8">
+          <h3 class="text-xl font-normal mb-3 text-[#1e88c7]">Comentarios Clientes</h3>
+          <p class="italic leading-relaxed">
+            " Fui atendido na clínica Kenko para uma consulta de rotina e fiquei impressionado com o cuidado e a atenção que recebi. 
+            A equipe é extremamente acolhedora e profissional. O ambiente é muito confortável, e eu me senti seguro durante todo o processo. 
+            Além disso, a clínica segue todas as medidas de segurança e higiene, o que me deu ainda mais confiança. 
+            Fiquei tão satisfeita que já agendei minha próxima consulta. Recomendo a todos!"
+          </p>
+          <p class="text-[#1e88c7] font-bold mt-2">• Gabriel Morais</p>
+        </section>
+
+        <!-- Contact Us -->
+        <section class="pl-4 md:pl-8">
+          <h3 class="text-xl font-normal mb-3 text-[#1e88c7]">Nosso Contato</h3>
+          <dl class="leading-relaxed">
+            <div class="flex">
+              <dt class="font-bold w-36">Telefone:</dt>
+              <dd>+55 (061) 380 7600</dd>
+            </div>
+            <div class="flex">
+              <dt class="font-bold w-36">Telefone de Emergencia:</dt>
+              <dd>+55 (061) 490 7600</dd>
+            </div>
+            <div class="flex">
+              <dt class="font-bold w-36">Endereço:</dt>
+              <dd>Rua do Bem-Estar, 123 – Bairro Alegria
+                Brasília, DF – CEP: 70000-000</dd>
+            </div>
+            <div class="flex">
+              <dt class="font-bold w-36">E-mail:</dt>
+              <dd>info@clinicakenko.com</dd>
+            </div>
+          </dl>
+        </section>
+      </div>
+    </main>
+
+    <footer class="max-w-7xl mx-auto px-4 py-3 text-center text-xs text-white">
+      © Copyright - 2025 - All Rights Reserved | Designed by: Gabriel de Morais Rodrigues
+      <a
+        href="https://github.com/GabrielMorais77"
+        target="_blank"
+        class="underline hover:text-gray-200"
+        >github.com</a
+      >
+    </footer>
+  </body>
+</html>
