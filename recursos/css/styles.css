@@ -46,7 +46,7 @@ a:hover {
   line-height: 1.2;
 }
 
-/* Exemplo de animação sutil */
+/* Tentativa de animação sutil */
 .fade-in {
   opacity: 0;
   animation: fadeIn ease 1s forwards;
